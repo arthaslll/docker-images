@@ -13,4 +13,4 @@ RUN scl enable rh-ruby23 'gem install --no-document fluent-plugin-kubernetes_met
     scl enable rh-ruby23 'gem install --no-document fluent-plugin-prometheus -v 0.2.1' && \
     scl enable rh-ruby23 'gem cleanup fluentd'
 
-ADD start-fluentd /start-fluentd
+ADD start-fluentd.sh /start-fluentd
