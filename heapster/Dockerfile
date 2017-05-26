@@ -1,2 +1,2 @@
-FROM gcr.io/google_containers/heapster:v1.3.0-beta.0
+FROM gcr.io/google_containers/heapster-amd64:v1.3.0
 MAINTAINER arthaslll lzqnbhh@sina.com
